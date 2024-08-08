@@ -10,7 +10,7 @@ Available publicly at:
 
 ## Maintenance notes
 
-Site content is stored in the `docs/` directory in this repository running from the `gh-pages` branch.
+Site content is stored in the `docs/` directory in this repository running from the `main` branch.
 
 
 ### Local testing
@@ -26,13 +26,12 @@ For more, see "Building your site locally" in [Testing your GitHub Pages site lo
 
 ### Pushing to production
 
-To push updates to the site to GitHub, which triggers a site rebuild under GitHub Actions, you'll need to commit changes via the `gh-pages` branch.
+To push updates to the site to GitHub, which triggers a site rebuild under GitHub Actions, you'll need to commit changes via the `main` branch.
 
 ```bash
-git checkout gh-pages
 git add .
 git commit -m 'COMMIT MESSAGE HERE'
-git push -u origin gh-pages
+git push origin main
 ```
 
 
