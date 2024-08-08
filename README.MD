@@ -29,6 +29,7 @@ For more, see "Building your site locally" in [Testing your GitHub Pages site lo
 To push updates to the site to GitHub, which triggers a site rebuild under GitHub Actions, you'll need to commit changes via the `gh-pages` branch.
 
 ```bash
+git checkout gh-pages
 git add .
 git commit -m 'COMMIT MESSAGE HERE'
 git push -u origin gh-pages
